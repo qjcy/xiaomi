@@ -1,0 +1,93 @@
+ul,li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.clearfix:after{
+    content: '';
+    width: 0;
+    height: 0;
+    display: block;
+    clear: both;
+    overflow: hidden;
+}
+
+body{
+    font: 14px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+    color: #333;
+    background-color: #fff;
+    min-width: 1226px;
+}
+
+header{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background-color: #333;
+}
+
+header a{
+    color: #A8A8A8;
+}
+
+header .container{
+    width: 1226px;
+    margin: 0 auto;
+    color: #A8A8A8;
+}
+
+header .container .navbar1{
+    float: left;
+}
+
+header .container .login-box,
+header .container .shopping-cart{
+    float: right;
+}
+
+header ul li{
+    float: left;
+    margin-right: 15px;
+    height: 40px;
+}
+
+header ul li a{
+    display: inline-block;
+    height: 40px;
+    font-size: 12px;
+}
+
+header ul li a:hover,
+header .container .login-box a:hover{
+    color: #fff;
+}
+
+header .container .shopping-cart{
+    margin-left: 25px;
+    width: 118px;
+    height: 40px;
+    text-align: center;
+    background-color: #424242;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+header .container .shopping-cart:hover{
+    background-color: #fff;
+    color: #ff6700;
+}
+
+header .container .login-box a{
+    display: inline-block;
+    height: 40px;
+    font-size: 12px;
+}
+
+header .container .login-box a:nth-of-type(2){
+    margin: 0 18px 0 12px;
+}
