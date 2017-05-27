@@ -120,13 +120,9 @@ header .container .login-box a:nth-of-type(2){
     background-color: #fff;
 }
 
-.wrap .content{
-    width: 1226px;
-    margin: 0 auto;
-}
-
 .wrap .content .content-top{
-    width: 100%;
+    margin: 0 auto;
+    width: 1226px;
     height: 100px;
 }
 
@@ -154,11 +150,11 @@ header .container .login-box a:nth-of-type(2){
     margin-top: 12px;
 }
 
-.content .content-top ul li{
+.content .content-top .navbar2 ul li{
     float: left;
 }
 
-.content .content-top ul li a{
+.content .content-top .navbar2 ul li a{
     display: inline-block;
     padding: 26px 10px 38px;
     text-align: center;
@@ -177,8 +173,35 @@ header .container .login-box a:nth-of-type(2){
     margin-top: 25px;
 }
 
-.content .content-top .form span{
+.content .content-top .form form span{
+    position: relative;
     float: left;
+}
+
+.content .content-top .form form span span{
+    position: absolute;
+    display: inline-block;
+    font-size: 12px;
+    color: #757575;
+    background-color: #EEEEEE;
+    padding: 1px 2px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.content .content-top .form form span span:hover{
+    color: #fff;
+    background-color: #FF6700;
+}
+
+.content .content-top .form form span span:nth-of-type(1){
+    left: 80px;
+    top: 16px;
+}
+
+.content .content-top .form form span span:nth-of-type(2){
+    right: 10px;
+    top: 16px;
 }
 
 .content .content-top .form input{
@@ -190,6 +213,7 @@ header .container .login-box a:nth-of-type(2){
     box-sizing: border-box;
     font-size: 16px;
     text-indent: 10px;
+    transition: all 0.5s ease;
 }
 
 .content .content-top .form button{
@@ -200,4 +224,49 @@ header .container .login-box a:nth-of-type(2){
     outline: none;
     font-size: 20px;
     color: #6B6161;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.content .content-top .form .search-detail{
+    display: none;
+    border: 1px solid #FF6700;
+    border-top: none;
+    width: 246px;
+    box-sizing: border-box;
+    transition: all 0.5s ease;
+}
+
+.content .content-top .form .search-detail ul li a{
+    display: block;
+    padding: 6px 15px;
+    font-size: 12px;
+    color: #424242;
+}
+
+.content .content-top .form .search-detail ul li a:hover{
+    background: #fafafa;
+}
+
+.content .content-top .form .search-detail ul li a span:nth-of-type(2){
+    float: right;
+    color: #b0b0b0;
+}
+
+.wrap .content .content-top-wrap{
+    width: 100%;
+    height: 200px;
+    background: #ffffff;
+    border-top: 1px solid #E0E0E0;
+}
+
+.wrap .content .content-top-wrap-shadow{
+    width: 100%;
+    height: 1px;
+    box-shadow: 0 1px 2px #ccc;
+}
+
+.wrap .content .content-top-wrap .content-top-container{
+    width: 1226px;
+    margin: 0 auto;
 }
