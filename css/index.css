@@ -78,10 +78,11 @@ header .container .shopping-cart{
     font-size: 12px;
 }
 
-header .container .shopping-cart .shopping-box:hover{
+/*header .container .shopping-cart .shopping-box:hover{
     background-color: #fff;
     color: #ff6700;
-}
+}*/
+
 
 header .container .shopping-cart .shopping-detail{
     position: absolute;
@@ -95,6 +96,10 @@ header .container .shopping-cart .shopping-detail{
     box-shadow: 0 0 5px #ccc;
     z-index: -1000;
 }
+
+/*header .container .shopping-cart .shopping-box:hover+.shopping-detail{
+    display: block;
+}*/
 
 header .container .login-box a{
     display: inline-block;

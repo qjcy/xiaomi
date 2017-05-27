@@ -3,10 +3,20 @@
  */
 $(function () {
    // 购物车
-    $('.shopping-box').hover(function () {
-        $(this).next().slideDown();
+    $('.shopping-cart').hover(function () {
+        $('.shopping-box').css({
+            'background-color':'#fff',
+            'color':'#ff6700'
+        });
+        $('.shopping-detail').slideDown('fast');
     },function () {
-        $(this).next().slideUp();
+        setTimeout(function () {
+            $('.shopping-box').css({
+                'background-color':'#000',
+                'color':'#A8A8A8'
+            });
+        },300);
+        $('.shopping-detail').slideUp('fast');
     });
 
 });
