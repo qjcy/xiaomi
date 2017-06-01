@@ -33,6 +33,6 @@ $(function () {
         $(this).css('border-color','#E0E0E0');
         $('#search-btn').css('border-color','#E0E0E0');
         $('.content-top .search-detail').hide(100);
-    })
+    });
 
 });
