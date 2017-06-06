@@ -536,6 +536,14 @@ cursor: pointer;*/
     padding-left: 24px;
 }
 
+.wrap .content .focus .category-nav .big .category-detail-list{
+    width: 248px;
+}
+
+.wrap .content .focus .category-nav .big .category-detail-list .category-detail-list-item{
+    width: 248px;
+}
+
 .wrap .content .focus .category-nav .category-detail .category-detail-list .category-detail-list-item a span{
     color: #333333;
 }
