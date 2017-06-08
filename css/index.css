@@ -717,5 +717,45 @@ cursor: pointer;*/
     width: 100%;
 }
 
+.content .star{
+    margin: 0 auto;
+    width: 1226px;
+    height: 438px;
+    margin-top: 25px;
+}
+
+.content .star .star-top{
+    height: 58px;
+}
+
+.star .star-top .star-top-title{
+    float: left;
+    line-height: 58px;
+    font-size: 22px;
+    font-weight: 200;
+    color: #333;
+}
+
+.star .star-top .star-top-btn{
+    float: right;
+
+}
+
+.star .star-top .star-top-btn button{
+    /*border: none;*/
+    width: 36px;
+    height: 24px;
+    border: 1px solid #E0E0E0;
+    box-sizing: border-box;
+    background: #fff;
+    outline: none;
+    cursor: pointer;
+    color: #E0E0E0;
+}
+
+.star .star-top .star-top-btn .star-top-right{
+    margin-left: -5px;
+}
+
 
 
